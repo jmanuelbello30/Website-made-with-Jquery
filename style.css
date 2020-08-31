@@ -1,0 +1,225 @@
+/*
+body{
+  background-image: url("https://fondosmil.com/fondo/20940.jpg");
+}
+*/
+
+.position-re-container{
+  position: relative;
+}
+
+.alert-success{
+  position: absolute;
+  z-index: 99;
+  width: 97%;
+}
+
+.reaction-margin{
+  margin: 0px 0px 30px 15px;
+}
+
+.btn-outline-success{
+  background: white;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus{
+  box-shadow: 0 0 0 0.2rem rgba(232, 235, 246);
+}
+
+.letters-style{
+  font-family: 'Amatic SC', cursive;
+}
+
+.principal-title{
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
+}
+
+.post-title{
+  display: inline-block;
+  font-family: 'Amatic SC', cursive;
+  margin: 38px 0px 0px 0px;
+  font-size: 50px;
+}
+
+.separate-sections{
+  padding:0px 0px 25px 0px;
+}
+
+.notifications{
+  float: right;
+  margin: 50px 795px 0px 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus{
+  border-color: transparent;
+  background-color: #007bff;
+  box-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: default;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color:#007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-success {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.margin-input-top{
+  margin: 25px 0px 0px 0px;
+  float: right;
+}
+
+.margin-navbar-separate{
+  margin: 15px 0px 0px 0px;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin: -20px 0px 0px -955px;
+  height: 40px;
+  top: 19%;
+}
+
+.especial-p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Javascript-color {
+  color: #ffe730;
+}
+
+.CSS-color {
+  color: #007bff;
+}
+
+.HTML-Color {
+  color: #fc6f03;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
+.imgadapted img {
+  height: 500px;
+  max-height: 500px;
+}
+
+.card {
+  border:none;
+  float: right;
+}
+
+.card-body {
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.post-text{
+  margin: 20px 290px 0px 0px ;
+  text-align: justify;
+}
+
+.title-me{
+  display: inline-block;
+  text-align: center;
+  font-size: 33px;
+}
+
+.title-login{
+  font-size: 33px;
+  padding: 25px 0px 15px 0px;
+  text-align: center;
+}
+
+.middle-box{
+  margin: 80px 0px 30px 0px;
+}
+
+.follow-screen{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 0px 60px 0px 0px;
+}
+
+.fa-arrow-alt-circle-up{
+  font-size: 50px;
+}
+
+.color-icon{
+  float: right;
+  color: white;
+  font-size: 20px;
+  position: sticky;
+  right: 605px;
+  bottom: 50px;
+}
+
+.py-5{
+  margin: 40px 0px 0px 0px;
+}
