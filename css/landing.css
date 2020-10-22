@@ -1,0 +1,238 @@
+/* Top page navBar  */
+.margin-input-top {
+  margin: 25px 0px 0px 0px;
+  float: right;
+}
+
+/* TopPage style */
+.position-re-container {
+  position: relative;
+}
+
+/* Dinamyc Principal title  */
+.principal-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 45px;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin: -20px 0px 0px -955px;
+  height: 40px;
+  top: 19%;
+}
+
+.especial-p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Javascript-color {
+  color: #ffe730;
+}
+
+.CSS-color {
+  color: #007bff;
+}
+
+.HTML-Color {
+  color: #fc6f03;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
+/* sub-titles */
+.letters-style {
+  font-family: "Amatic SC", cursive;
+}
+
+/* Log out success style */
+.alert-success {
+  position: absolute;
+  z-index: 99;
+  width: 97%;
+}
+
+/* buttons */
+.btn-outline-success {
+  cursor: pointer !important;
+  background: white;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(232, 235, 246);
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  border-color: transparent;
+  background-color: #007bff;
+  box-shadow: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-success {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* carousel */
+.imgadapted img {
+  height: 500px;
+  max-height: 500px;
+}
+
+.middle-box {
+  margin: 80px 0px 30px 0px;
+}
+
+/* Post title */
+.post-title {
+  display: inline-block;
+  font-family: "Amatic SC", cursive;
+  margin: 38px 0px 0px 0px;
+  font-size: 50px;
+}
+
+/* Article/Post button style */
+.reaction-margin {
+  margin: 0px 0px 30px 15px;
+}
+
+/* Post information */
+.post-text {
+  margin: 20px 290px 0px 0px;
+  text-align: justify;
+}
+
+/* Card about me */
+.title-me {
+  display: inline-block;
+  text-align: center;
+  font-size: 33px;
+}
+
+.card {
+  border: none;
+  float: right;
+}
+
+.card-body {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.title-login {
+  font-size: 33px;
+  padding: 25px 0px 15px 0px;
+  text-align: center;
+}
+
+.small,
+small {
+  font-size: 73%;
+}
+
+.card-login {
+  margin: 30px 0px 0px 0px;
+}
+
+
+/* scroll to top */
+.follow-screen {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 0px 60px 0px 0px;
+}
+
+.fa-arrow-alt-circle-up {
+  font-size: 50px;
+}
+
+.color-icon {
+  float: right;
+  color: white;
+  font-size: 20px;
+  position: sticky;
+  right: 605px;
+  bottom: 50px;
+}
+
+/* Footer */
+.py-5 {
+  margin: 40px 0px 0px 0px;
+}
+
+
+
