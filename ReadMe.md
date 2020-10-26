@@ -1,6 +1,6 @@
-# Website make with Jquery
+# Website made with Jquery
 
-Basic webpage make with Jquery, a JavaScript Library.
+Basic webpage made with Jquery, a JavaScript Library.
 
 #### Technologies: HTML, CSS, JS, Jquery.
 
@@ -22,6 +22,7 @@ https://drive.google.com/file/d/1qF_MTfSVonH7XoUCpH6o7sBSkM1gBS_q/view?usp=shari
    - Added alert with Logout message.
    - Added accordion made with Bootstrap.
    - Added scroll to top.
+   - Added Jumbotron in section "¿Quién Soy?"
 
 ### Functionalities to do:
 
@@ -36,8 +37,8 @@ https://drive.google.com/file/d/1qF_MTfSVonH7XoUCpH6o7sBSkM1gBS_q/view?usp=shari
 Clone the repository, and open the document landing.html in your browser:
 
 ```sh
-1. $ git clone 
-2. cd 
+1. $ git clone https://github.com/jmanuelbello30/Website-make-with-Jquery.git
+2. cd Landing-with-Jquery
 3. To frequently launch this project, open the landing.html document in your browser or refresh the page where you first opened the project.
 ```
 ---
