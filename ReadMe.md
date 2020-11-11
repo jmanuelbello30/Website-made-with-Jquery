@@ -8,6 +8,7 @@ Libraries used in this project:
    - Bootstrap.
    - Jquery.
    - Font Awesome.
+   - MomentJS.
 
 ### Initial instructions considered to carry out this project:
 
@@ -22,15 +23,18 @@ https://drive.google.com/file/d/1qF_MTfSVonH7XoUCpH6o7sBSkM1gBS_q/view?usp=shari
    - Added alert with Logout message.
    - Added accordion made with Bootstrap.
    - Added scroll to top.
-   - Added Jumbotron in section "¿Quién Soy?"
+   - Added Jumbotron in section "¿Quién Soy?".
+   - Added watch made with Momentjs in section "Reloj".
+   - Added interactive button to show watch in section "Reloj".
 
 ### Functionalities to do:
 
    - Theme changer (change colors and backgrounds of the web).
-   - Section "Clock" in which there will be a dynamic clock with javascript.
    - Contact section with form and validation.
+   - Validations in forms.
    - Modify the final styles of the entire web.
    - Document pending code.
+   - Add Responsive.
 
 ### Steps to install this project for first time: 
 
