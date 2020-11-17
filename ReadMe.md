@@ -26,12 +26,12 @@ https://drive.google.com/file/d/1qF_MTfSVonH7XoUCpH6o7sBSkM1gBS_q/view?usp=shari
    - Added Jumbotron in section "¿Quién Soy?".
    - Added watch made with Momentjs in section "Reloj".
    - Added interactive button to show watch in section "Reloj".
+   - Added Contact section with basic validation made with "jquery validation plugin": https://jqueryvalidation.org/documentation/.
 
 ### Functionalities to do:
 
    - Theme changer (change colors and backgrounds of the web).
-   - Contact section with form and validation.
-   - Validations in forms.
+   - Remaining validations.
    - Modify the final styles of the entire web.
    - Document pending code.
    - Add Responsive.

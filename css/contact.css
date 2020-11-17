@@ -1,0 +1,30 @@
+.image-me {
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  float: right;
+  margin: 50px 240px 0px 100px;
+  border-radius: 350px 350px 350px 350px;
+}
+
+#formContact {
+  width: 25%;
+}
+
+.bye-letters {
+  padding: 60px 245px 0px 0px;
+  float: right;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+}
+
+.title-form {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+}
+
+#name-error{
+    font-style: italic;
+    font-size: 13px;
+    color: red;
+}
