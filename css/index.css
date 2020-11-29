@@ -1,0 +1,189 @@
+/* letter-type */
+.letters-style {
+  font-family: "Amatic SC", cursive;
+}
+
+/* Theme Changer*/
+.change-theme {
+  display: inline-flex;
+}
+
+.theme-blue {
+  background: #caeefc;
+}
+
+.theme-white {
+  background: #fff;
+}
+
+.another {
+  display: block;
+  margin: 5px 0px 0px 7px;
+}
+
+.selector-theme {
+  position: fixed;
+  top: 40%;
+  background: #cfd0d1;
+  width: 60px;
+  height: 95px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.theme-blue.focus,
+.theme-blue:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.theme-white.focus,
+.theme-white:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Top page navBar  */
+.input-search {
+  margin: 30px 0px 0px 0px;
+  float: right;
+}
+
+.navbar-ma {
+  margin: 110px 0px 0px 0px;
+}
+
+/* Search button input */
+.search.focus,
+.search:focus {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.search:not(:disabled):not(.disabled).active:focus,
+.search:not(:disabled):not(.disabled):active:focus,
+.show > .search.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+/* Dinamyc Principal title  */
+.principal-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin: -20px 0px 0px -950px;
+  height: 40px;
+  top: 19%;
+}
+
+.especial-p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Javascript-color {
+  color: #ffe730;
+}
+
+.CSS-color {
+  color: #007bff;
+}
+
+.HTML-Color {
+  color: #fc6f03;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
+/* Div for control NavBar */
+.middle-box {
+  margin: 80px 0px 30px 0px;
+}
+
+/* scroll to top */
+.follow-screen {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  margin: 0px 60px 0px 0px;
+}
+
+.fa-arrow-alt-circle-up {
+  font-size: 50px;
+}
+
+.color-icon {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  position: sticky;
+  right: 605px;
+  bottom: 50px;
+}
+
+/* Footer */
+.py-3 {
+  margin: 50px 0px 0px 0px;
+}
+
+.icon-footer {
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+}
+
+i:hover {
+  color: #caeefc;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.icon-center {
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Error form */
+label.error {
+  color: red;
+  font-style: italic;
+  font-size: 13px;
+}

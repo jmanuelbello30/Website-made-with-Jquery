@@ -69,11 +69,11 @@ $(document).ready(function () {
     rules: {
       name: {
         required: true,
-        minlength: 10,
+        minlength: 3,
       },
       lastname: {
         required: true,
-        minlength: 10,
+        minlength: 3,
       },
       email: {
         required: true,
@@ -85,12 +85,6 @@ $(document).ready(function () {
       date: {
         required: true,
         date: true,
-      },
-      age: {
-        required: true,
-        digits: true,
-        maxlength: 2,
-        max: 90,
       },
     },
   });

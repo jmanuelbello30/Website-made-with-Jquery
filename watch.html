@@ -6,17 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/landing.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
 	<link rel="stylesheet" type="text/css" href="css/watch.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Stencil+Display:wght@300;400&display=swap" rel="stylesheet">	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 	<title>Watch</title>
 </head>
 
-<body class="d-flex flex-column">
+<body id="body-change" class="d-flex flex-column">
+
+	<div class="selector-theme">
+		<div><button type="button" class="btn theme-blue another"><em class="fas fa-fill-drip"></em></button></div>
+		<div><button type="button" class="btn theme-white another"><em class="fas fa-tint-slash"></em></button></div>
+	</div>
 
 	<!-- Div for make static footer -->
 	<div class="flex-grow-1 flex-shrink-0">
@@ -24,8 +27,36 @@
 		<!-- Box for scroll to the top -->
 		<div id="TopPage" class="container position-re-container">
 
+			<!-- Alert from log out success -->
+			<div id="alertLogout" class="alert alert-success" role="alert" style="display:none">
+				¡Te has deslogueado! Gracias por probar el Login <em class="far fa-grin-hearts"></em>
+			</div>
+			<!-- Alert -->
+
+			<!-- Modal for login success -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title letters-style" id="exampleModalLabel">Bienvenido</i></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							¡Genial! Te has Logueado <em class="far fa-grimace"></em>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary exit-m" data-dismiss="modal">Cerrar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
+
 			<!-- Navbar for input search and dynamic letters -->
-			<nav class="navbar navbar-light margin-input-top">
+			<nav class="navbar navbar-light input-search" aria-label="title">
 
 				<header class="header">
 
@@ -40,10 +71,10 @@
 						</p>
 					</div>
 
-					<form class="form-inline">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-					</form>
+					<div class="form-inline">
+						<input class="form-control mr-sm-2" type="search" aria-label="Search" disabled>
+						<button class="btn btn-primary my-2 my-sm-0 search">Buscar</button>
+					</div>
 				</header>
 			</nav>
 			<!-- Navbar -->
@@ -51,9 +82,8 @@
 
 		<div class="container">
 			<div class="middle-box">
-
 				<!-- Navbar menú -->
-				<nav class="navbar navbar-expand-lg navbar-dark bg-dark margin-navbar-separate">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-ma" aria-label="menu">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -61,13 +91,13 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link" href="landing.html">Presentación</a>
+								<a class="nav-link" href="landing.html">Bienvenida</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="aboutme.html">¿Quién Soy?</a>
+								<a class="nav-link" href="accordion.html">Accordion</span></a>
 							</li>
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Reloj</a>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Reloj</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="contact.html">Contacto</a>
@@ -75,10 +105,8 @@
 						</ul>
 					</div>
 				</nav>
-				<!-- Navbar menú -->
 			</div>
-		</div>
-	</div>
+			<!-- Navbar menú -->
 
 	<!-- Letters watch -->
 	<div class="container">
@@ -92,7 +120,7 @@
 
 		<!-- watch -->
 
-		<a class="biliboard lines" type="button">Muéstrame <i class="far fa-clock"></i></a>
+		<a class="biliboard lines" type="button">Muéstrame <em class="far fa-clock"></em></a>
 
 		<div id="clock" class="watch"></div>
 		<!-- watch -->
@@ -100,36 +128,23 @@
 
 	<div class="container">
 		<!-- Footer -->
-		<footer class="page-footer font-small special-color-dark pt-4 flex-shrink-0 bg-dark py-3 test">
+		<footer class="pt-4 flex-shrink-0 bg-dark py-3 separation">
 
 			<!-- Footer Elements -->
 			<div class="container">
 
 				<!-- Social buttons -->
-				<ul class="list-unstyled list-inline text-center">
+				<ul class="list-unstyled list-inline icon-center">
 					<li class="list-inline-item">
-						<a class="btn-floating btn-fb mx-1">
-							<i class="fab fa-facebook-f"></i>
+						<a class="btn-floating btn-fb mx-1" target="_blank"
+							href="https://github.com/jmanuelbello30?tab=repositories" rel="noopener noreferrer">
+							<i class="fab fa-github icon-footer"></i>
 						</a>
 					</li>
 					<li class="list-inline-item">
-						<a class="btn-floating btn-tw mx-1">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn-floating btn-gplus mx-1">
-							<i class="fab fa-google-plus-g"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn-floating btn-li mx-1">
-							<i class="fab fa-linkedin-in"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="btn-floating btn-dribbble mx-1">
-							<i class="fab fa-dribbble"></i>
+						<a class="btn-floating btn-li mx-1" target="_blank" href="https://www.linkedin.com/in/belloal/"
+							rel="noopener noreferrer">
+							<i class="fab fa-linkedin icon-footer"></i>
 						</a>
 					</li>
 				</ul>
@@ -139,15 +154,14 @@
 			<!-- Footer Elements -->
 
 			<!-- Copyright -->
-			<div class="footer-copyright text-center text-white">© 2020 Copyright:<a href=""> </a>
-			</div>
+			<div class="footer-copyright text-white">© 2020 Copyright: J.M</div>
 			<!-- Copyright -->
 
 		</footer>
 	</div>
 
 	<!-- Scroll to top -->
-	<div class="follow-screen"><a class="ToTop" href="#TopPage"><i class="far fa-arrow-alt-circle-up"></i></a></div>
+	<div class="follow-screen"><a class="ToTop" href="#TopPage"><em class="far fa-arrow-alt-circle-up"></em></a></div>
 
 	<!-- all JS library -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"

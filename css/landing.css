@@ -1,160 +1,26 @@
-/* Top page navBar  */
-.margin-input-top {
-  margin: 25px 0px 0px 0px;
-  float: right;
+/*Modal styles*/
+.modal-title {
+  font-size: 30px;
 }
 
-/* TopPage style */
-.position-re-container {
-  position: relative;
-}
-
-/* Dinamyc Principal title  */
-.principal-title {
-  font-family: "Amatic SC", cursive;
-  font-size: 45px;
-}
-
-.text {
-  position: absolute;
-  width: 450px;
-  left: 50%;
-  margin: -20px 0px 0px -955px;
-  height: 40px;
-  top: 19%;
-}
-
-.especial-p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-}
-
-.word {
-  position: absolute;
-  width: 220px;
-  opacity: 0;
-}
-
-.letter {
-  position: relative;
-  float: left;
-  transform: translateZ(25px);
-  transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-  transform: rotateX(90deg);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.letter.behind {
-  transform: rotateX(-90deg);
-}
-
-.letter.in {
-  transform: rotateX(0deg);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.Javascript-color {
-  color: #ffe730;
-}
-
-.CSS-color {
-  color: #007bff;
-}
-
-.HTML-Color {
-  color: #fc6f03;
-}
-
-.midnight {
-  color: #2c3e50;
-}
-
-/* sub-titles */
-.letters-style {
-  font-family: "Amatic SC", cursive;
+/*Button exit modal*/
+.exit-m:not(:disabled):not(.disabled).active:focus,
+.exit-m:not(:disabled):not(.disabled):active:focus,
+.show > .exit-m.dropdown-toggle:focus {
+  box-shadow: none;
 }
 
 /* Log out success style */
 .alert-success {
   position: absolute;
   z-index: 99;
-  width: 97%;
-}
-
-/* buttons */
-.btn-outline-success {
-  cursor: pointer !important;
-  background: white;
-}
-
-.btn-outline-success:not(:disabled):not(.disabled):active {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-outline-success:not(:disabled):not(.disabled):active:focus {
-  box-shadow: 0 0 0 0.2rem rgba(232, 235, 246);
-}
-
-.btn-primary.focus,
-.btn-primary:focus {
-  border-color: transparent;
-  background-color: #007bff;
-  box-shadow: none;
-}
-
-.btn:not(:disabled):not(.disabled) {
-  cursor: pointer !important;
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: none;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-outline-success {
-  color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-outline-success:hover {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  width: 1100px;
 }
 
 /* carousel */
 .imgadapted img {
   height: 500px;
   max-height: 500px;
-}
-
-.middle-box {
-  margin: 80px 0px 30px 0px;
 }
 
 /* Post title */
@@ -174,6 +40,42 @@
 .post-text {
   margin: 20px 290px 0px 0px;
   text-align: justify;
+}
+
+/* Post button style */
+.shape:focus {
+  box-shadow: none;
+}
+
+.shape.focus,
+.shape:focus {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.shape:not(:disabled):not(.disabled).active:focus,
+.shape:not(:disabled):not(.disabled):active:focus,
+.show > .shape.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.shape:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.shape:not(:disabled):not(.disabled).active,
+.shape:not(:disabled):not(.disabled):active,
+.show > .shape.dropdown-toggle {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.shape:not(:disabled):not(.disabled) {
+  cursor: default;
 }
 
 /* Card about me */
@@ -207,32 +109,22 @@ small {
   margin: 30px 0px 0px 0px;
 }
 
-
-/* scroll to top */
-.follow-screen {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  margin: 0px 60px 0px 0px;
+/*Login information and Logout button*/
+.login.focus,
+.login:focus {
+  box-shadow: none;
 }
 
-.fa-arrow-alt-circle-up {
-  font-size: 50px;
+.login-title {
+  font-size: 25px;
+  text-align: center;
 }
 
-.color-icon {
-  float: right;
-  color: white;
-  font-size: 20px;
-  position: sticky;
-  right: 605px;
-  bottom: 50px;
+.p-login {
+  text-align: center;
 }
 
-/* Footer */
-.py-5 {
-  margin: 40px 0px 0px 0px;
+.logout {
+  margin-left: 30px;
+  text-align: center;
 }
-
-
-
