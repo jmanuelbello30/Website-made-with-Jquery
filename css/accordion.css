@@ -144,3 +144,7 @@
   width: 75px;
 }
 
+/* Jumbotron image*/
+.card-image{
+  background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg)
+}

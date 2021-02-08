@@ -28,16 +28,12 @@ https://drive.google.com/file/d/1qF_MTfSVonH7XoUCpH6o7sBSkM1gBS_q/view?usp=shari
    - Added watch made with Momentjs in section "Reloj".
    - Added interactive button to show watch in section "Reloj".
    - Added Contact section with basic validation made with "jQuery validation plugin": https://jqueryvalidation.org/documentation/.
-   - Added Theme changer (change the background color of the web) working only in section "Bienvenida".
+   - Added Theme changer (change the background color of the web).
    - Added basic validation made with "jQuery validation plugin" in login, section "Bienvenida".
    - Added social network icons in footer.
 
 ### Functionalities or tasks to do:
 
-   - Modify the final styles of the entire web.
-   - Organize Javascript according to each HTML.
-   - Add Theme changer functionality in the rest sectionals.
-   - Document pending code.
    - Add Responsive.
 
 ### Steps to install this project for first time: 

@@ -1,5 +1,10 @@
+/* General Styles */
 #formContact {
   width: 25%;
+}
+
+.box-form{
+  padding-top: 25px;
 }
 
 .bye-letters {
@@ -20,6 +25,8 @@
   margin-top: 28px;
 }
 
+/*Footer*/
 .py-3 {
   margin: 80px 0px 0px 0px;
+  height: 125px;
 }

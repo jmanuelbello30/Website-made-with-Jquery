@@ -9,11 +9,11 @@
 }
 
 .theme-blue {
-  background: #caeefc;
+  background: #caeefc !important;
 }
 
 .theme-white {
-  background: #fff;
+  background: #fff !important;
 }
 
 .another {

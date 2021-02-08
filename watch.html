@@ -27,34 +27,6 @@
 		<!-- Box for scroll to the top -->
 		<div id="TopPage" class="container position-re-container">
 
-			<!-- Alert from log out success -->
-			<div id="alertLogout" class="alert alert-success" role="alert" style="display:none">
-				¡Te has deslogueado! Gracias por probar el Login <em class="far fa-grin-hearts"></em>
-			</div>
-			<!-- Alert -->
-
-			<!-- Modal for login success -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-				aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title letters-style" id="exampleModalLabel">Bienvenido</i></h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							¡Genial! Te has Logueado <em class="far fa-grimace"></em>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-primary exit-m" data-dismiss="modal">Cerrar</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-
 			<!-- Navbar for input search and dynamic letters -->
 			<nav class="navbar navbar-light input-search" aria-label="title">
 
@@ -110,7 +82,7 @@
 
 	<!-- Letters watch -->
 	<div class="container">
-		<div class="body-box">
+		<div id="body-watch" class="body-box">
 			<h1 class="home-title">
 				<span>¿Sabes que hora es?</span>
 				<span>Dame la hora reloj</span>
@@ -119,8 +91,9 @@
 		<!-- Letters watch -->
 
 		<!-- watch -->
-
-		<a class="biliboard lines" type="button">Muéstrame <em class="far fa-clock"></em></a>
+		<div id="biliboard">
+			<a class="biliboard lines" type="button">Muéstrame <em class="far fa-clock"></em></a>
+		</div>
 
 		<div id="clock" class="watch"></div>
 		<!-- watch -->
@@ -175,6 +148,7 @@
 	<script src="https://kit.fontawesome.com/c8c4476de2.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 	<script type="text/javascript" src="js/watch.js"></script>
 
 </body>
